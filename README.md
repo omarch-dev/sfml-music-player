@@ -52,7 +52,6 @@ Run the program:
 
 Use the interface to:
 - Add songs
-- Create playlists
 - Control playback
 
 ## Future Improvements
