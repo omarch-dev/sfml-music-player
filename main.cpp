@@ -26,7 +26,6 @@ int main() {
   sf::RenderWindow window(sf::VideoMode({800, 600}), "SFML music player");
   window.setVerticalSyncEnabled(true);
   tgui::Gui gui(window);
-  gui.setFont("JetBrainsMono-Medium.ttf");
 
   // Panel
   auto panel = tgui::Panel::create({"100%", "100%"});
