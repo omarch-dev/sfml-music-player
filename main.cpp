@@ -21,7 +21,7 @@ inline const tgui::Color Danger{220, 38, 38};
 int main() {
   // Initialize the playlist
   PlayList playlist;
-  playlist.load("/"); // Check out !!!!!!!!!!!!!!!!!
+  playlist.load("/home/"); // Check out !!!!!!!!!!!!!!!!!
 
   sf::RenderWindow window(sf::VideoMode({800, 600}), "SFML music player");
   window.setVerticalSyncEnabled(true);
